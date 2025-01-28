@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://icon.icepanel.io/Technology/svg/MongoDB.svg" type="image/x-icon">
+    <style>
+        i{
+            font-size: 70px;
+        }
+        p{
+            background: rgb(238,174,202);
+            background: linear-gradient(315deg, rgba(238,174,202,0.8995973389355743) 47%, rgba(148,187,233,1) 100%);
+            font-size: 50px;
+        }
+        .image{
+            background-image: url(./1.webp);
+            background-size: cover;
+            background-position: center;
+            
+        }
+        #repeat{
+            background-image: url(./2.webp);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .blend{
+            background-image: url(./3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-color: pink;
+            background-blend-mode: multiply;
+        }
+    </style>
+</head>
+<body>
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-solid fa-sun fa-xl" style="color: #FFD43B;"></i>
+    <i class="fa-regular fa-moon fa-beat" style="color: #c8cdd5;"></i>
+    <p>
+        Full-stack developers have a high level of competency in both frontend and backend languages. They are skilled in HTML, CSS, JavaScript, NodeJS, ExpressJS, Django, and PHP. Equally, full-stack developers understand various database management systems (DBMS) like MySQL, PostgreSQL, MongoDB, and more.
+    </p>
+<hr>
+<p class="image">
+    Developers love MongoDB Atlas because it’s intuitive, flexible, and maps easily to object-oriented languages. With the latest release, the world’s most popular document database is faster than ever and easier to scale at lower cost.
+    Encrypting data at rest and in transit can provide strong safeguards, but without encrypting data while it is queried and processed, data is vulnerable. MongoDB Queryable Encryption is an industry-first innovation that allows customers to run expressive queries on encrypted data for processing.
+    MongoDB Atlas is the only developer data platform available on all three major cloud providers. Access 115+ regions across AWS, Azure, and Google Cloud. When you need to run anywhere, the only choice is Atlas.
+</p><hr>
+<p id="repeat">
+    MongoDB Query API
+The MongoDB Query API is the way you will interact with your data.
+
+The MongoDB Query API can be used in two ways:
+
+CRUD Operations
+Aggregation Pipelines
+MongoDB Query API Uses
+You can use the MongoDB Query API to perform:
+
+Adhoc queries with mongosh, Compass, VS Code, or a MongoDB driver for the programming language you use.
+Data transformations using aggregation pipelines.
+Document join support to combine data from different collections.
+Graph and geospatial queries.
+Full-text search.
+Indexing to improve MongoDB query performance.
+Time series analysis.
+</p>
+<p class="blend">
+    MongoDB Charts
+    MongoDB Charts lets you visualize your data in a simple, intuitive way.
+    MongoDB Charts Setup
+    From the MongoDB Atlas dashboard, go to the Charts tab.
+    If you've never used Charts before, click the Activate Now button. This will take about 1 minute to complete.
+    You'll see a new dashboard. Click the dashboard name to open it.
+    Creating a Chart
+    Create a new chart by clicking the Add Chart button.
+    Visually creating a chart is intuitive. Select the data sources that you want to use.
+    Example:
+    In this example, we are using the "sample_mflix" database loaded from our sample data in the Intro to Aggregations section.
+    Under Data Source, select the Movies collection.
+    Let's visualize how many movies were released in each year.
+    Drag the Year field to the Y Axis field and set the Bin Size to 1.
+    Drag the _id field to the X Axis field and make sure COUNT is selected for the Aggregate.
+    You should now see a bar chart with the number of movies released in each year.
+</p>
+</body>
+</html>
