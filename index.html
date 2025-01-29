@@ -3,88 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="https://icon.icepanel.io/Technology/svg/MongoDB.svg" type="image/x-icon">
-    <style>
-        i{
-            font-size: 70px;
-        }
-        p{
-            background: rgb(238,174,202);
-            background: linear-gradient(315deg, rgba(238,174,202,0.8995973389355743) 47%, rgba(148,187,233,1) 100%);
-            font-size: 50px;
-        }
-        .image{
-            background-image: url(./1.webp);
-            background-size: cover;
-            background-position: center;
-            
-        }
-        #repeat{
-            background-image: url(./2.webp);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-        .blend{
-            background-image: url(./3.jpg);
-            background-size: cover;
-            background-position: center;
-            background-color: pink;
-            background-blend-mode: multiply;
-        }
-    </style>
+    <title>Box Model</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-solid fa-sun fa-xl" style="color: #FFD43B;"></i>
-    <i class="fa-regular fa-moon fa-beat" style="color: #c8cdd5;"></i>
-    <p>
-        Full-stack developers have a high level of competency in both frontend and backend languages. They are skilled in HTML, CSS, JavaScript, NodeJS, ExpressJS, Django, and PHP. Equally, full-stack developers understand various database management systems (DBMS) like MySQL, PostgreSQL, MongoDB, and more.
-    </p>
-<hr>
-<p class="image">
-    Developers love MongoDB Atlas because it’s intuitive, flexible, and maps easily to object-oriented languages. With the latest release, the world’s most popular document database is faster than ever and easier to scale at lower cost.
-    Encrypting data at rest and in transit can provide strong safeguards, but without encrypting data while it is queried and processed, data is vulnerable. MongoDB Queryable Encryption is an industry-first innovation that allows customers to run expressive queries on encrypted data for processing.
-    MongoDB Atlas is the only developer data platform available on all three major cloud providers. Access 115+ regions across AWS, Azure, and Google Cloud. When you need to run anywhere, the only choice is Atlas.
-</p><hr>
-<p id="repeat">
-    MongoDB Query API
-The MongoDB Query API is the way you will interact with your data.
+    <H1>Anime</H1>
+    <ul>
+        <li>Naruto</li>
+        <li>Blackclover</li>
+        <li>Your name</li>
+    </ul>
+    <div>
+        <h2>Your Name:</h2>
+    <p>Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person.Mitsuha and Taki are total strangers living completely different lives. But when Mitsuha makes a wish to leave her mountain town for the bustling city of Tokyo, they become connected in a bizarre way. She dreams she is a boy living in Tokyo while Taki dreams he is a girl from a rural town he’s never visited.
+        What does their newfound connection mean? And how will it bring them together? Find out in the latest film from the acclaimed auteur Makoto Shinkai.</p>
+    <img src="https://sevenpercentbiased.com/wp-content/uploads/2017/04/screenshot-68-e1501819608174.png?w=816&h=457&crop=1" alt="Your Name">
+    </div>
+    <div><h2>A Silent Voice:</h2>
+        <p>A grade-school student with a hearing impairment is bullied and transfers to another school. Years later, the former bully is tormented by his behaviour and sets out to make amends.Shōya tries to meet up with Shōko to help her feed the koi in the river, much to the ire of her younger sister, Yuzuru. When Shōya illegally jumps into the river to retrieve Shōko's notebook, Yuzuru takes a photo of the incident and posts it online to have him suspended from school. Yuzuru runs away from home after an argument with Shōko over the incident. Shōya offers to let Yuzuru stay at his house, and the two begin to bond.</p>
+        <img id="silent"src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/09/asilentvoice-amusementpark-groupshot.jpg?q=50&fit=crop&w=825&dpr=1.5" alt="">
+    </div>
+    <div><h2>Naruto</h2>
+        <p>Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.Naruto Uzumaki wants to be the best ninja in the land. He's done well so far, but with the looming danger posed by the mysterious Akatsuki organization, Naruto knows he must train harder than ever and leaves his village for intense exercises that will push him to his limits.</p>
+        <img id="naruto"src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/12/naruto-team-7.jpg?q=49&fit=crop&w=360&h=240&dpr=2" alt="">
+    </div>
+    <div><h2>Black Clover</h2>
+        <p>Black Clover (Japanese: ブラッククローバー, Hepburn: Burakku Kurōbā) is a Japanese manga series written and illustrated by Yūki Tabata. It started in Shueisha's shōnen manga magazine Weekly Shōnen Jump in February 2015. The series ran in the magazine until August 2023, and moved to Jump Giga in December of the same year. Its chapters have been collected in 36 tankōbon volumes as of February 2024. Set in a world where people are born with the ability to use magic, the story follows Asta, a young boy without any magic power who is given a rare grimoire that grants him anti-magic abilities. With his fellow mages from the Black Bulls, Asta plans to become the next Wizard King.
 
-The MongoDB Query API can be used in two ways:
-
-CRUD Operations
-Aggregation Pipelines
-MongoDB Query API Uses
-You can use the MongoDB Query API to perform:
-
-Adhoc queries with mongosh, Compass, VS Code, or a MongoDB driver for the programming language you use.
-Data transformations using aggregation pipelines.
-Document join support to combine data from different collections.
-Graph and geospatial queries.
-Full-text search.
-Indexing to improve MongoDB query performance.
-Time series analysis.
-</p>
-<p class="blend">
-    MongoDB Charts
-    MongoDB Charts lets you visualize your data in a simple, intuitive way.
-    MongoDB Charts Setup
-    From the MongoDB Atlas dashboard, go to the Charts tab.
-    If you've never used Charts before, click the Activate Now button. This will take about 1 minute to complete.
-    You'll see a new dashboard. Click the dashboard name to open it.
-    Creating a Chart
-    Create a new chart by clicking the Add Chart button.
-    Visually creating a chart is intuitive. Select the data sources that you want to use.
-    Example:
-    In this example, we are using the "sample_mflix" database loaded from our sample data in the Intro to Aggregations section.
-    Under Data Source, select the Movies collection.
-    Let's visualize how many movies were released in each year.
-    Drag the Year field to the Y Axis field and set the Bin Size to 1.
-    Drag the _id field to the X Axis field and make sure COUNT is selected for the Aggregate.
-    You should now see a bar chart with the number of movies released in each year.
-</p>
+            The manga was first adapted into an original video animation (OVA) by Xebec Zwei, released in 2017. A 170-episode anime television series adaptation produced by Pierrot aired on TV Tokyo from October 2017 to March 2021. An anime film, titled Black Clover: Sword of the Wizard King, premiered simultaneously in Japanese theaters and internationally on Netflix in June 2023.</p>
+        <img id="black"src="https://comic-watch.com/wp-content/uploads/2021/03/blackclover.jpg" alt="">
+    </div>
+    <div><h2>I Want to Eat Your Pancreas</h2>
+        <p>I Want to Eat Your Pancreas, also known as Let Me Eat Your Pancreas, is a novel by the Japanese writer Yoru Sumino. Initially serialized as a web novel in the user-generated site Shōsetsuka ni Narō in 2014, the book was published in print in 2015 by Futabasha. A manga adaptation ran from 2016 to 2017.In this deeply moving first-person story, an introverted high school boy finds his classmate’s diary―and learns her biggest secret. Sakura Yamauchi is dying from a pancreatic disease and now he is the only one person outside her family to know the truth. The last thing the boy wants is to be her friend, but Sakura’s cheerful demeanor and their shared secret draw them together in this heartrending tale of friendship and mortality.</p>
+        <img class="eat"src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/I-Want-To-Eat-Your-Pancreas.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="">
+    </div>
 </body>
 </html>
